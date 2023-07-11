@@ -25,6 +25,7 @@ adata = scanpy.read(data_file)
 scanpy.pp.neighbors(adata)
 adata.write(data_file)
 ```
+scDRS will also take single-cell level covariates to consider in their analysis. The covariate files used for this work can be found in ../data/SC_data.
 
 ## scGWAS
 scGWAS preprocessing involves pseudobulking and transforming gene expression based on predefined groups. This can be done using the script [].
