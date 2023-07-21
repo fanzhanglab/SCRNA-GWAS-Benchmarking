@@ -17,14 +17,14 @@ SCDRS_DIR="/path/to/scDRS/bin/"
 
 
 echo Munge-GS
-/usr/bin/time scdrs munge-gs \
+/usr/bin/time $SCDRS_DIR/scdrs munge-gs \
     --out-file $SCDRS_OUTPUT_DIR/UCorRA.gs \
     --pval-file $MAGMA_OUTPUT_DIR/UCorRA_pval.tsv \
     --weight zscore \
     --n-max 1000 > $SCDRS_OUTPUT_DIR/scdrs_munge-gs_out_date.txt
 
 echo Compute scDRS scores
-/usr/bin/time scdrs compute-score \
+/usr/bin/time $SCDRS_DIR/scdrs compute-score \
     --h5ad-file $DATA_DIR/UCorRA.h5ad\
     --h5ad-species human \
     --gs-file $SCDRS_OUTPUT_DIR/UCorRA.gs \
@@ -43,7 +43,7 @@ echo Perform Downstream Analysis
 
 ## Change h5ad file according to group level desired (clusters=micro, large cell types=macro)
 ##  the score file prefix (UC or RA) must be the same trait as used before
-/usr/bin/time scdrs perform-downstream \
+/usr/bin/time $SCDRS_DIR/scdrs perform-downstream \
     --h5ad-file $DATA_DIR/UCorRA.h5ad\
     --score-file $SCDRS_OUTPUT_DIR/UCorRA.full_score.gz \
     --out-folder $SCDRS_OUTPUT_DIR \
