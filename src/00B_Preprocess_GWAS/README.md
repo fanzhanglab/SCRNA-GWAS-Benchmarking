@@ -4,7 +4,7 @@ This code is contained mostly as a jupyter notebook since the original format of
 The jupyter notebook explains the steps and some example of output/timing but a summary is here:
 1. If your summary statistics do not include RSIDs, Parts 1-4 of the jupyter notebook should be followed:
     1. Make bed files to allow mapping of SNPs to RSID database (**Get_rsid_baseed_sumstats.ipynb** Step 1)
-    2. Map the SNPs to the RSID databasee (**get_rsid.sh**)
+    2. Map the SNPs to the RSID databasee (**get_rsID.sh**)
     3. Get final RSID values while addressing slight mismatches (**Get_rsid_baseed_sumstats.ipynb** Step 3)
     4. Address duplicate RSIDs and multimapped SNPs (**Get_rsid_baseed_sumstats.ipynb** Step 4)
 2. Remove MHC region (**Get_rsid_baseed_sumstats.ipynb** Step 5)
