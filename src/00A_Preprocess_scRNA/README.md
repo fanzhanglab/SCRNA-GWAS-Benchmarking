@@ -1,5 +1,5 @@
 ## QC
-QC filters used can be found at ...
+Both single-cell datasets were quality checked and filtered using the same methods as described in [Cellular deconstruction of inflamed synovium defines diverse inflammatory phenotypes in rheumatoid arthritis. Zhang, F et al. bioRxiv. 2022](https://www.biorxiv.org/content/10.1101/2022.02.25.481990v1)
 
 ## scDRS
 scDRS requires input in AnnData format (.h5ad). The following code illustrates how these files were created using R based AnnData, and qc-based normalized expression. Cell types used included "macro" (large-scale cell types) and "micro" (fine-scaled clusters) for the purposes of our work.
