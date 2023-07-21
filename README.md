@@ -12,7 +12,7 @@ The pipeline code used can be found in **src directory** and includes:
 Data and Output used for references of format and to rerun our analysis can be found in **data** and **output** directories.
 
 ## Dependencies:
-- If having problems with dependencies, we'd recommend you look at the original Githubs (listed below) regarding the problem step as those would be most up to date. The general dependencies to run our pipeline include data.table, ggplot2, tidyverse...
+- If having problems with dependencies, we'd recommend you look at the original Githubs (listed below) regarding the problem step as those would be most up to date. The general dependencies to run our pipeline include data.table, ggplot2, tidyverse (R) and python >3.1
 
 ## Other Resources
 - scDRS Github: https://github.com/martinjzhang/scDRS
