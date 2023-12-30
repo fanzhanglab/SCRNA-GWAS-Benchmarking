@@ -4,6 +4,7 @@ This section contains the jupyter notebooks used to generate the figures used in
 * Folder: 0A_scGWAS_scDRS
 ### Cell Types
 * Folder: CT_Clusters
+
 Cell Type significance analysis (RA):
 * File: RA_SCDRS_SCGWAS_Results.ipynb
 * Associated Figures: Figure 2, Supplemental Figure 1
@@ -16,6 +17,7 @@ Cell Type significance analysis (UC):
 
 ### Genes
 * Folder: Genes
+
 Gene comparison analysis: 
 * File: Gene_analysis_scGWASscDRS.ipynb
 * Purpose of Analysis: Assess how significant scGWAS gene modules and MAGMA genes correlate to scDRS disease scores
@@ -34,6 +36,7 @@ scDRS Heterogeneity:
 -----------------------------------------------------------------------
 ## Distinguishing pathological cell clusters across similar diseases
 * Folder: 0B_Dist_path
+
 Cell Type significance analysis (AS vs RA):
 * File: Compare_AS_RA.ipynb
 * Purpose of Analysis: Compare scDRS results for AS and RA to see if different significant pathological cell types can distinguish the two. Check results are consistent with different MAGMA window sizes.
