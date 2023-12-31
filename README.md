@@ -29,7 +29,7 @@ scGWAS can be cited with [Jia, Hu, et al. "scGWAS: landscape of trait-cell type 
 
 MAGMA can be cited with [de Leeuw C, Mooij J, Heskes T, Posthuma D (2015): MAGMA: Generalized gene-set analysis of GWAS data. PLoS Comput Biol 11(4): e1004219. doi:10.1371/journal.pcbi.1004219](http://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1004219)
 
-FUMA can be cited with [Watanabe, K., Taskesen, E., van Bochoven, A. et al. Functional mapping and annotation of genetic associations with FUMA. Nat Commun 8, 1826 (2017). https://doi.org/10.1038/s41467-017-01261-5] (https://doi.org/10.1038/s41467-017-01261-5)
+FUMA can be cited with [Watanabe, K., Taskesen, E., van Bochoven, A. et al. Functional mapping and annotation of genetic associations with FUMA. Nat Commun 8, 1826 (2017). https://doi.org/10.1038/s41467-017-01261-5](https://doi.org/10.1038/s41467-017-01261-5)
 
 
 
