@@ -59,4 +59,4 @@ GWAS Power:
 Alternatives to MAGMA:
 * File: FUMA.ipynb
 * Purpose of Analysis: Assess results when using FUMA (incorporates non-positional methods to link SNPs to genes and get gene-level summary statistics) either in combination with or separate to postitional based methods (MAGMA)
-* Associated Figures: Supplemental Figures 11 & 12
+* Associated Figures: Supplemental Figures 11 & 12, Supplemental Table 5
