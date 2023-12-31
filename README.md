@@ -20,6 +20,7 @@ Jupyter notebooks with the analysis used to generate figures and results are fou
 - scDRS Github: https://github.com/martinjzhang/scDRS
 - scGWAS Github: https://github.com/ElkonLab/scGWAS
 - MAGMA Documentation and Software: https://ctg.cncr.nl/software/magma
+- FUMA Website: https://fuma.ctglab.nl/
 
 ## Citations
 scDRS can be cited with [Zhang*, Hou*, et al. "Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data", Nature Genetics, 2022.](https://www.nature.com/articles/s41588-022-01167-z)
@@ -27,6 +28,9 @@ scDRS can be cited with [Zhang*, Hou*, et al. "Polygenic enrichment distinguishe
 scGWAS can be cited with [Jia, Hu, et al. "scGWAS: landscape of trait-cell type associations by integrating single-cell transcriptomics-wide and genome-wide association studies", Genome Biol, 2022](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02785-w)
 
 MAGMA can be cited with [de Leeuw C, Mooij J, Heskes T, Posthuma D (2015): MAGMA: Generalized gene-set analysis of GWAS data. PLoS Comput Biol 11(4): e1004219. doi:10.1371/journal.pcbi.1004219](http://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1004219)
+
+FUMA can be cited with [Watanabe, K., Taskesen, E., van Bochoven, A. et al. Functional mapping and annotation of genetic associations with FUMA. Nat Commun 8, 1826 (2017). https://doi.org/10.1038/s41467-017-01261-5] (https://doi.org/10.1038/s41467-017-01261-5)
+
 
 
 
