@@ -23,6 +23,8 @@ Jupyter notebooks with the analysis used to generate figures and results are fou
 - FUMA Website: https://fuma.ctglab.nl/
 
 ## Citations
+This work is currently available on [BioRxiv](https://www.biorxiv.org/content/10.1101/2024.06.17.599349v1) and can be cited as Townsend, H. A., Rosenberger, K., Vanderlinden, L., Inamo, J., & Zhang, F. (2024). Single-cell based integrative analysis of transcriptomics and genetics reveals robust associations and complexities for inflammatory diseases. bioRxiv. https://doi.org/https://doi.org/10.1101/2024.06.17.599349. 
+
 scDRS can be cited with [Zhang*, Hou*, et al. "Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data", Nature Genetics, 2022.](https://www.nature.com/articles/s41588-022-01167-z)
 
 scGWAS can be cited with [Jia, Hu, et al. "scGWAS: landscape of trait-cell type associations by integrating single-cell transcriptomics-wide and genome-wide association studies", Genome Biol, 2022](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02785-w)
