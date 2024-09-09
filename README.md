@@ -23,13 +23,15 @@ Jupyter notebooks with the analysis used to generate figures and results are fou
 - FUMA Website: https://fuma.ctglab.nl/
 
 ## Citations
-scDRS can be cited with [Zhang*, Hou*, et al. "Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data", Nature Genetics, 2022.](https://www.nature.com/articles/s41588-022-01167-z)
+This work is currently available on [BioRxiv](https://www.biorxiv.org/content/10.1101/2024.06.17.599349v1) and can be cited as "Townsend, H. A., Rosenberger, K., Vanderlinden, L., Inamo, J., & Zhang, F. (2024). Single-cell based integrative analysis of transcriptomics and genetics reveals robust associations and complexities for inflammatory diseases. bioRxiv. https://doi.org/https://doi.org/10.1101/2024.06.17.599349." 
 
-scGWAS can be cited with [Jia, Hu, et al. "scGWAS: landscape of trait-cell type associations by integrating single-cell transcriptomics-wide and genome-wide association studies", Genome Biol, 2022](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02785-w)
+[scDRS](https://www.nature.com/articles/s41588-022-01167-z) can be cited with "Zhang*, Hou*, et al. "Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data", Nature Genetics, 2022."
 
-MAGMA can be cited with [de Leeuw C, Mooij J, Heskes T, Posthuma D (2015): MAGMA: Generalized gene-set analysis of GWAS data. PLoS Comput Biol 11(4): e1004219. doi:10.1371/journal.pcbi.1004219](http://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1004219)
+[scGWAS](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02785-w) can be cited with "Jia, Hu, et al. "scGWAS: landscape of trait-cell type associations by integrating single-cell transcriptomics-wide and genome-wide association studies", Genome Biol, 2022"
 
-FUMA can be cited with [Watanabe, K., Taskesen, E., van Bochoven, A. et al. Functional mapping and annotation of genetic associations with FUMA. Nat Commun 8, 1826 (2017). https://doi.org/10.1038/s41467-017-01261-5](https://doi.org/10.1038/s41467-017-01261-5)
+[MAGMA](http://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1004219) can be cited with "de Leeuw C, Mooij J, Heskes T, Posthuma D (2015): MAGMA: Generalized gene-set analysis of GWAS data. PLoS Comput Biol 11(4): e1004219. doi:10.1371/journal.pcbi.1004219"
+
+[FUMA](https://doi.org/10.1038/s41467-017-01261-5) can be cited with "Watanabe, K., Taskesen, E., van Bochoven, A. et al. Functional mapping and annotation of genetic associations with FUMA. Nat Commun 8, 1826 (2017). https://doi.org/10.1038/s41467-017-01261-5"
 
 
 
