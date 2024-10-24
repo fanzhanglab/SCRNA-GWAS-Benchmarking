@@ -78,4 +78,4 @@ saveRDS(Single_data, "/scratch/alpine/htownsend@xsede.org/scpagwas/Seurat_object
 ```
 
 ## scGWAS
-scGWAS preprocessing involves pseudobulking and transforming gene expression based on predefined groups. This can be done using the script [].
+scGWAS preprocessing involves pseudobulking and transforming gene expression based on predefined groups. This can be done using the script process_sc_data_celltypes.R.
