@@ -27,5 +27,55 @@ adata.write(data_file)
 ```
 scDRS will also take single-cell level covariates to consider in their analysis. The covariate files used for this work can be found in ../data/SC_data.
 
+## scPagwas
+scPagwas requires input in Seurat format (v5). Due to the high computational burden of scPagwas, we removed a small subset cell states that were not found significant by literature searches, scDRS, or scGWAS. The following R code indicates how we did this.
+```
+##### RA #####
+counts <- readRDS("/projects/fanzhanglab@xsede.org/data/amp_phase2_ra/qc_mRNA_count_matrix.rds")
+# read in the metadata for just the White individuals
+meta <- readRDS(paste0(sc_dir, "white_amp2RA_metadata_04_24_23.rds"))
+rownames(meta) <- meta$cell
+# only keep the data for counts that are found in the metadata
+counts <- counts[,meta$cell]
+Single_data<-Seurat::CreateSeuratObject(
+  counts,
+  assay = "RNA",
+  meta.data=meta
+)
+# Normalize and Scale Counts
+Single_data <- Seurat::NormalizeData(Single_data, normalization.method = "LogNormalize", scale.factor = 10000)
+# Filter out some cell states
+idx <- which(!Single_data$cell_type %in% "Endothelial")
+unique(Single_data$cell_type)
+Single_data = Single_data[,idx]
+dim(Single_data)
+idx <- which(!Single_data$cluster_name %in% c("F-0: PRG4+ CLIC5+ lining", "F-1: PRG4+ lining", 
+                                              "F-4: DKK3+ sublining", "F-3: POSTN+ sublining", 
+                                              "F-8: RSPO3+ intermediate", "F-6: CXCL12+ SFRP1+ sublining", 
+                                              "Mu-0: Mural", "F-5: CD74-hi sublining"))
+Single_data = Single_data[,idx]
+dim(Single_data)
+saveRDS(Single_data, "/scratch/alpine/htownsend@xsede.org/scpagwas/Seurat_object_white_noEndFib_amp2RA_10.18.24.rds")
+
+##### UC #####
+counts <- readRDS("/projects/fanzhanglab@xsede.org/data/Ulcerative_Colitis_Smillie_2019/count_qc_ulcerative_colitis_gut.rds")
+## read in the metadata for just the White individuals
+meta <- as.data.frame(readRDS(paste0(sc_dir, "meta_qc_ulcerative_colitis_gut_celltypes_covariates_2023_06_08.rds")))
+rownames(meta) <- meta$cell
+# Filter out some cell states
+meta <- meta[!meta$macro %in% c("Glia", "Endothelial"),]
+meta <- meta[!meta$cluster %in% c("Macrophages", "TA 1", "TA 2"),]
+# only keep the data for counts that are found in the metadata
+counts <- counts[,meta$cell]
+
+Single_data<-Seurat::CreateSeuratObject(
+  counts,
+  assay = "RNA",
+  meta.data=meta
+)
+Single_data <- Seurat::NormalizeData(Single_data, normalization.method = "LogNormalize", scale.factor = 10000)
+saveRDS(Single_data, "/scratch/alpine/htownsend@xsede.org/scpagwas/Seurat_object_Smillie2017_10.22.24.rds")
+```
+
 ## scGWAS
 scGWAS preprocessing involves pseudobulking and transforming gene expression based on predefined groups. This can be done using the script [].
