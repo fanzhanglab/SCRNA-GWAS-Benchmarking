@@ -8,6 +8,7 @@ The pipeline code used can be found in **src directory** and includes:
 3. 01: MAGMA & Gene Alias Matching
 4. 02: scDRS
 5. 03: scGWAS
+6. 04: scPagwas
 
 Data and Output used for references of format and to rerun our analysis can be found in **data** and **output** directories.
 
@@ -19,6 +20,7 @@ Jupyter notebooks with the analysis used to generate figures and results are fou
 ## Other Resources
 - scDRS Github: https://github.com/martinjzhang/scDRS
 - scGWAS Github: https://github.com/ElkonLab/scGWAS
+- scPagwas Github: https://github.com/sulab-wmu/scPagwas
 - MAGMA Documentation and Software: https://ctg.cncr.nl/software/magma
 - FUMA Website: https://fuma.ctglab.nl/
 
