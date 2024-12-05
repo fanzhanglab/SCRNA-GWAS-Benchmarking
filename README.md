@@ -1,5 +1,5 @@
 # SCRNA-GWAS-Benchmarking
-This repository contains the work/pipeline done in ... to benchmark two recent methods for integrating single cell transcriptomics (RNA-seq) and GWAS summary statistics to identify pathogenically relevant cell clusters and the genetically linked genes underlying them.
+This repository contains the work/pipeline done in the paper [Evaluating methods for integrating single-cell data and genetics to understand inflammatory disease complexity](https://doi.org/10.3389/fimmu.2024.1454263) to benchmark two recent methods for integrating single cell transcriptomics (RNA-seq) and GWAS summary statistics to identify pathogenically relevant cell clusters and the genetically linked genes underlying them.
 
 ## Repository Structure: 
 The pipeline code used can be found in **src directory** and includes:
@@ -25,7 +25,7 @@ Jupyter notebooks with the analysis used to generate figures and results are fou
 - FUMA Website: https://fuma.ctglab.nl/
 
 ## Citations
-This work is currently available on [BioRxiv](https://www.biorxiv.org/content/10.1101/2024.06.17.599349v1) and can be cited as "Townsend, H. A., Rosenberger, K., Vanderlinden, L., Inamo, J., & Zhang, F. (2024). Single-cell based integrative analysis of transcriptomics and genetics reveals robust associations and complexities for inflammatory diseases. bioRxiv. https://doi.org/https://doi.org/10.1101/2024.06.17.599349." 
+This work is published [Frontiers in Immunology](https://doi.org/10.3389/fimmu.2024.1454263) and can be cited as "Townsend, H.A., Rosenberger, K., Inamo, J., Zhang, F. (2024). Evaluating Methods for Integrating Single-Cell Data and Genetics to Understand Inflammatory Disease Complexity. Front. Immunol. 15. doi: 10.3389/fimmu.2024.1454263"
 
 [scDRS](https://www.nature.com/articles/s41588-022-01167-z) can be cited with "Zhang*, Hou*, et al. "Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data", Nature Genetics, 2022."
 
